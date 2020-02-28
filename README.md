@@ -9,7 +9,7 @@ change from b1
 
 - You now have a copy of the repo you just forked, available in your GitHub account
 
-- Clone the repo locally by running `git clone git@github.com:<your github username>/guides-github-pull-request.git` in your terminal
+- Clone the repo locally by running `git clone git@github.com:<your github username>/git@github.com:jimibue/special-spork.git` in your terminal
 
 - Open this repo in your terminal and run the following command to create a new branch: `git checkout -b add-your-name`
 
