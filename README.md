@@ -2,7 +2,7 @@
 feature added make a change
 
 User 2 new comment
-
+change from b1
 - Click the Fork button on the upper right-hand corner. This will save the repo to your GitHub account
 
 - You now have a copy of the repo you just forked, available in your GitHub account
