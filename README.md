@@ -17,4 +17,4 @@ User 2 new comment
 
 - get my changes 'git pull origin master'
 
-- This is a better one
+- This one way of doing it
