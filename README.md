@@ -19,4 +19,6 @@ change from b1
 
 - THIS IS THE RIGHT WAY
 
-_ guy2 change
+- Make a change on branch 2
+
+- another change
