@@ -1,0 +1,20 @@
+# Model-Views-Controller 
+
+          
+* Models are Ruby classes. They talk to the database, store and validate data, perform the business logic and otherwise do the heavy lifting. They’re the chubby guy in the back room crunching the numbers. In this case, the model retrieves video 15 from the database.
+
+* Views are what the user sees: HTML, CSS, XML, Javascript, JSON. They’re the sales rep putting up flyers and collecting surveys, at the manager’s direction. Views are merely puppets reading what the controller gives them. They don’t know what happens in the back room. In our example, the controller gives video 15 to the “show” view. The show view generates the HTML: divs, tables, text, descriptions, footers, etc.
+
+* Controllers do the work of parsing user requests, data submissions, cookies, sessions and the “browser stuff”. They’re the pointy-haired manager that orders employees around. The best controller is Dilbert-esque: It gives orders without knowing (or caring) how it gets done. In our case, the show method in the video controller knows it needs to lookup a video. It asks the model to get video 15, and will eventually display it to the user.The controller returns the response body (HTML, XML, etc.) & metadata (caching headers, redirects) to the server. The server combines the raw data into a proper HTTP response and sends it to the user.
+How to generate models and controllers in the terminal:
+rails g model page title:string author:string body:text       
+* * * creates a migration file * * * (models are always singular)
+`create    db/migrate/20200218181751_create_pages.rb`
+`create    app/models/page.rb`
+
+`rails g controller pages index show new edit`
+ * * * creates HTML files * * * (controllers are always the plural form of the model)
+
+`db:migrate`
+          => Runs all-new migrations that the database does not know about
+          
