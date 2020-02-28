@@ -13,4 +13,4 @@ feature added
 
 - get my changes 'git pull origin master'
 
-- This is the correct one
+- This is a better one
