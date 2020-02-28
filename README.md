@@ -1,9 +1,6 @@
 # special-spork
 feature added
 
-# special-spork
-feature added
-
 - Click the Fork button on the upper right-hand corner. This will save the repo to your GitHub account
 
 - You now have a copy of the repo you just forked, available in your GitHub account
