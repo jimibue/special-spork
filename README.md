@@ -17,4 +17,8 @@ change from b1
 
 - get my changes 'git pull origin master'
 
+<<<<<<< HEAD
 - This is another way
+=======
+- This one way of doing it
+>>>>>>> 611af2a463418baf441857174adf69e59d3dad39
