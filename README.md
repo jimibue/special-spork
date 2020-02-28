@@ -17,4 +17,4 @@ change from b1
 
 - get my changes 'git pull origin master'
 
-- This is another way
+- THIS IS THE RIGHT WAY
