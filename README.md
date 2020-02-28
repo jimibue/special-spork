@@ -20,3 +20,5 @@ change from b1
 - THIS IS THE RIGHT WAY
 
 - Make a change on branch 2
+
+- another change
