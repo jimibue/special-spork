@@ -23,3 +23,9 @@ For example, in my current branch it shows:
 `ref: refs/heads/master`
 
 It is possible for HEAD to refer to a specific revision that is not associated with a branch name. This situation is called a [detached HEAD](https://git-scm.com/docs/git-checkout#_detached_head "detached HEAD").
+
+
+## git reset
+
+## git revert
+If your changes are pushed to the remote repository or you want in general to aviod changing the commit history, then it is better to use revert
