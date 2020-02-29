@@ -32,3 +32,5 @@ The git reset command can be used this way (the --hard flag will also clear any 
 
 ## git revert
 If your changes are pushed to the remote repository or you want in general to avoid changing the commit history, then it is better to use revert
+
+bad change 1
