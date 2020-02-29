@@ -2,7 +2,7 @@
 
 Sometme you will see the Git documentation saying something about **HEAD**. For example:
 
-The branch must be fully merged in HEAD.
+The branch must be fully merged in HEAD.s
 
 But what exactly is Git **HEAD**?
 
